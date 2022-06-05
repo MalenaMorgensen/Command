@@ -1,0 +1,3 @@
+while ! youtube-dl <video_uri> -c --socket-timeout 5; do echo DISCONNECTED; done
+
+while ! youtube-dl <video_uri> -c --socket-timeout 5; do echo DISCONNECTED; sleep 5; done
